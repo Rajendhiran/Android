@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<ScrollView 
+	android:id="@+id/testScroll"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:background="#5c3c1c"
+	android:layout_height="wrap_content">
+<LinearLayout 
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#3c3c3c"
+    android:layout_height="fill_parent">
+    	
+    	<HorizontalScrollView android:id="@+id/horz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">    
+ 	<TableLayout 
+	 	android:id="@+id/TestLayout"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content" />
+	 	</HorizontalScrollView>
+</LinearLayout> 	
+ </ScrollView> 	 	
+
