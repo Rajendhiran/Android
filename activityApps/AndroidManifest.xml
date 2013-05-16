@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.intent.maps">
+	<supports-screens
+		android:anyDensity="true"
+		android:largeScreens="true"
+		android:normalScreens="true"
+		android:smallScreens="true" />
+
+	<uses-sdk
+		android:minSdkVersion="8" />
+
+	<application android:icon="@drawable/gmaps">
+		<activity
+			android:name="AppsMaps"
+			android:label="View Location">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
