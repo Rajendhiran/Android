@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:background="#7D9EC0"
+	android:layout_gravity="center"
+	android:gravity="center">
+		 	  
+  <TableLayout 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center"
+  	android:gravity="center">
+  	
+  	<TableRow
+  		android:id="@+id/row1"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="50dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/quakename"
+  			android:textSize="18dip"
+  			android:text="Earthquake Name: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/quakevalue"
+  			android:textSize="18dip"
+  			android:text="Earthquake Name"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />  			  			  				
+  	</TableRow>
+
+  	<TableRow
+  		android:id="@+id/row2"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/rictarscale"
+  			android:textSize="18dip"
+  			android:text="Rictar Scale: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/rictarscalevalue"
+  			android:textSize="18dip"
+  			android:text="8.5"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />  			  			  				
+  	</TableRow>
+  	
+  	<TableRow
+  		android:id="@+id/row3"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/sourcename"
+  			android:textSize="18dip"
+  			android:text="News Source: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/sourcevalue"
+  			android:textSize="18dip"
+  			android:text="US"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+  			  			  			  				
+  	</TableRow>  	
+  	
+
+	<TableRow
+  		android:id="@+id/row4"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/date"
+  			android:textSize="18dip"
+  			android:text="Date of Occurence: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/datevalue"
+  			android:textSize="18dip"
+  			android:text="10-Nov-2009"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />  			  			  				
+  	</TableRow>  	
+
+	<TableRow
+  		android:id="@+id/row5"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/time"
+  			android:textSize="18dip"
+  			android:text="Time of Occurence: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/timevalue"
+  			android:textSize="18dip"
+  			android:text="17:55:39"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+  			  			  			  				
+  	</TableRow>  	
+
+	<TableRow
+  		android:id="@+id/row6"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/depth"
+  			android:textSize="18dip"
+  			android:text="Depth: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/depthvalue"
+  			android:textSize="18dip"
+  			android:text="33.1"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+  			  			  			  				
+  	</TableRow>  	
+  	
+  	<TableRow
+  		android:id="@+id/row7"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/lati"
+  			android:textSize="18dip"
+  			android:text="Latitude: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/lativalue"
+  			android:textSize="18dip"
+  			android:text="14.0129"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+  			  			  			  				
+  	</TableRow>  	
+  	
+  	<TableRow
+  		android:id="@+id/row8"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dip">
+  	  		
+  		<TextView 
+  			android:id="@+id/longi"
+  			android:textSize="18dip"
+  			android:text="Longitude: "  			
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#EEEEEE"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />
+
+  		<TextView 
+  			android:id="@+id/longivalue"
+  			android:textSize="18dip"
+  			android:text="92.9226"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="#385E0F"
+  			android:shadowColor="#ff0000"
+  			android:shadowDx="1.5"
+  			android:shadowDy="1"
+  			android:shadowRadius="2" />  			  			  				
+  	</TableRow>  	 	
+  </TableLayout>
+ </LinearLayout>

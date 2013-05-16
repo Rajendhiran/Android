@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/c">
+    
+    
+  <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/linearLayout1">
+    	
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="FirstName" 
+    	android:textAppearance="?android:attr/textAppearanceLarge" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="20dip" />
+   
+    	<EditText 
+    		android:inputType="textPersonName" 
+    		android:layout_marginLeft="10dip" 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/editText1" 
+    		android:layout_width="fill_parent" 
+    		android:layout_marginTop="20dip" 
+    		android:layout_weight="1" /> 
+    		     
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/linearLayout2">
+    	
+	    <TextView 
+	    	android:id="@+id/textView2" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="wrap_content" 
+	    	android:text="LastName" 
+	    	android:layout_marginTop="20dip" />
+	    	
+	    <EditText 
+	    	android:layout_marginLeft="10dip" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/editText2" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_marginTop="20dip" 
+	    	android:layout_weight="1" />
+    
+     </LinearLayout>
+     
+    <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/linearLayout3">
+    	
+    	<Button 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/button1" 
+    		android:text="Save" 
+    		android:layout_width="95dp" 
+    		android:layout_marginLeft="20dip" 
+    		android:layout_marginTop="50dip" />
+    		 
+    	<Button 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/button2" 
+    		android:text="View" 
+    		android:layout_width="97dp" 
+    		android:layout_marginLeft="50dip" 
+    		android:layout_marginTop="50dip" />
+    </LinearLayout>
+
+	<ListView 
+		android:id="@+id/LisContent"
+		android:layout_width="fill_parent"
+		android:scrollingCache="false"
+		android:layout_marginTop="20dip"
+		android:background="#fff"
+		android:layout_height="wrap_content" /> 
+		
+	<TextView 
+	    	android:id="@+id/Empty" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="wrap_content"	    	
+	    	android:text="No Records Available"
+	    	android:layout_margin="20dip" />
+	    	
+</LinearLayout>

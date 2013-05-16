@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GPSMarker!</string>
+    <string name="app_name">GPS Marker</string>
+    <string name="map_key_dev">0C0SS60TzjJRNp7qivnRJ3chiO-dhiHajgHx2nA</string>
+    <string name="map_key_app">0C0SS60TzjJSSXDkzA2_SuThVjNR9aLFvTr6hjg</string>
+</resources>

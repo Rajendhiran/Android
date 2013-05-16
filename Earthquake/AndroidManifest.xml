@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.earth.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application android:icon="@drawable/earthquake" android:label="@string/app_name">
+ 	
+    	<uses-library android:name="com.google.android.maps"></uses-library>
+    
+        <activity android:name=".EarthSplash"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTop"
+                  android:multiprocess="true"
+                  android:theme="@android:style/Theme.NoTitleBar">
+                  
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+            <activity android:name=".InputQuake"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTask"
+                  android:multiprocess="true"
+                  android:theme="@android:style/Theme.NoTitleBar">                  
+            </activity>
+
+         	<activity android:name=".LoadEarthQuakeDetails"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTop"
+                  android:multiprocess="true"
+                  android:theme="@android:style/Theme.NoTitleBar">                  
+            </activity>
+            
+         	<activity android:name=".DetailView"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTop"
+                  android:multiprocess="true"
+                  android:theme="@android:style/Theme.NoTitleBar">                  
+            </activity>       
+            
+            <activity android:name=".SampleMap"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar">                  
+                                                
+            </activity>   
+                     
+                 
+                                   
+    </application>
+</manifest>
